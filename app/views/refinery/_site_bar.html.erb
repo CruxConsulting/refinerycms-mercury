@@ -10,7 +10,7 @@
       </div>
       <% unless admin? -%>
         <div id='edit_page', style="margin-left: 200px;">
-          <%= link_to "Editer la page", "/editor/pages/" + @page.slug -%>
+          <%= link_to "Editer la page", "/editor/pages/#{@page.id}" -%>
         </div>
       <% end -%>
     <%= link_to image_tag("#{"http://refinerycms.com/images/" unless local_request?}refinery/logo-site-bar.png", :alt => "Refinery (tm) Content Manager"),
