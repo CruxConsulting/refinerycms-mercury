@@ -3,7 +3,7 @@ PATH
   specs:
     refinerycms-mercury (0.0.1)
       mercury-rails
-      rails (~> 3.2.6)
+      rails
 
 GEM
   remote: http://rubygems.org/
