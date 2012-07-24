@@ -8,6 +8,9 @@
       <div id='editor_switch'>
         <%= site_bar_switch_link -%>
       </div>
+      <div id='editor_switch', style="margin-left: 200px;">
+        <%= link_to "Editer la page", "/editor" + request.env['PATH_INFO'] -%>
+      </div>
     <%= link_to image_tag("#{"http://refinerycms.com/images/" unless local_request?}refinery/logo-site-bar.png", :alt => "Refinery (tm) Content Manager"),
                   'http://refinerycms.com',
                   :target => '_blank',
