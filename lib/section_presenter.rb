@@ -6,7 +6,7 @@ module Refinery
     private
 
       def wrap_content_in_tag(content)
-        content_tag(:section, content_tag(:div, content, :class => 'inner', :id => "editable-body", :data => {:mercury => "full"}), :id => id)
+        content_tag(:section, content_tag(:div, content, :class => 'inner', :id => "mercury-#{id}", :data => {:mercury => "full"}), :id => id)
       end
 
     end
