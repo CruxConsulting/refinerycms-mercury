@@ -7,13 +7,13 @@ require "refinerycms-mercury/version"
 Gem::Specification.new do |s|
   s.name        = "refinerycms-mercury"
   s.version     = RefinerycmsMercury::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RefinerycmsMercury."
-  s.description = "TODO: Description of RefinerycmsMercury."
+  s.authors     = ["Crux Consulting"]
+  s.email       = ["julien@cruxandco.com"]
+  s.homepage    = ""
+  s.summary     = "refinery page edition using mercury editor"
+  s.description = "Allow to edit front office refinery pages and save your changes"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails"
   # s.add_dependency "jquery-rails"
