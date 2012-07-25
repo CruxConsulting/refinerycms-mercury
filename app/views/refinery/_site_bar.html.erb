@@ -9,7 +9,7 @@
         <%= site_bar_switch_link -%>
       </div>
       <% unless admin? -%>
-        <div id='edit_page', style="margin-left: 200px;">
+        <div id='edit_page', style="position: absolute; left: 25%;">
           <%= link_to "Editer la page", "/editor/pages/#{@page.id}" -%>
         </div>
       <% end -%>
